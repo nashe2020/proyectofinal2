@@ -1,0 +1,91 @@
+
+body {
+    background-color: #f2f2f2; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.header nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.header nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+
+.main-content {
+    text-align: center; 
+    padding: 20px;
+}
+
+.hero {
+    background-color: #f8d7da; 
+    padding: 50px 0; 
+    margin-bottom: 20px; 
+}
+
+.hero h1 {
+    color: #721c24; 
+}
+
+.featured-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.popular-brands,
+.popular-stores {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.brand-list img,
+.store-list img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
